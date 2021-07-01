@@ -1,0 +1,6 @@
+<div class="engine-wrapper">
+    <canvas #rendererCanvas id="renderCanvas" (mousedown)="mouse.down($event)" (mouseup)="mouse.up($event)"
+        (mousemove)="mouse.move($event)" (contextmenu)="mouse.contextMenu($event)"></canvas>
+</div>
+<span id="framerate">0</span>
+<div id="ui">Botón derecho crea particula y botón Izquierdo Simula</div>
